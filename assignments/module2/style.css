@@ -1,0 +1,173 @@
+
+*
+{
+  box-sizing: border-box;
+}
+
+h1
+{
+  font-size: 60px;
+  text-align: center;
+}
+
+section
+{
+  background-color: #5f5f5f ;
+  border: solid black
+}
+
+div{
+  padding-left: : 25px;
+}
+.container
+{
+  position: relative;
+  border: solid black,15px;
+  margin: 15px;
+  height: 60%;
+}
+
+.item_name
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  height: auto;
+  width: 40%;
+  text-align: center;
+  margin: 0;padding: 0;
+  border-left: solid black;
+  border-bottom: solid black;
+}
+
+.item_content
+{
+  padding: 15px;
+  padding-top: 30px
+}
+
+#Chicken .item_name
+{
+  background-color: #e79998;
+}
+
+#Beef .item_name
+{
+  background-color: #bf4240;
+}
+
+#Sushi .item_name
+{
+  background-color: #ddc892;
+}
+
+
+@media (min-width: 992px)
+{
+  .container
+  {
+    position: relative;
+    float: left;
+    border: solid black,15px;
+    margin: 15px;
+    height: 50%;
+    width: 30%
+  }
+
+  .item_name
+  {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: auto;
+    width: 40%;
+    text-align: center;
+    margin: 0;padding: 0;
+    border-left: solid black;
+    border-bottom: solid black;
+  }
+
+  .item_content
+  {
+    padding: 15px;
+    padding-top: 30px
+  }
+
+  #Chicken .item_name
+  {
+    background-color: #e79998;
+  }
+
+  #Beef .item_name
+  {
+    background-color: #bf4240;
+  }
+
+  #Sushi .item_name
+  {
+    background-color: #ddc892;
+  }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .container
+  {
+    position: relative;
+    float: left;
+    border: solid black;
+    margin: 10px;
+    height: auto;
+    width: 45%
+  }
+
+  .item_name
+  {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: auto;
+    width: 40%;
+    text-align: center;
+    margin: 0;padding: 0;
+    border-left: solid black;
+    border-bottom: solid black;
+  }
+
+  #Sushi
+  {
+    clear: both;
+    height: 160px;
+    width: 92.5%
+
+  }
+
+  .item_content
+  {
+    padding: 15px;
+    padding-top: 30px
+  }
+
+  #Chicken .item_name
+  {
+    background-color: #e79998;
+  }
+
+  #Beef .item_name
+  {
+    background-color: #bf4240;
+  }
+
+  #Sushi .item_name
+  {
+    background-color: #ddc892;
+  }
+
+
+}
