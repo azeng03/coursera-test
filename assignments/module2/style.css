@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body
+{
+  background-color: lightblue;
+}
+
 h1
 {
   font-size: 60px;
@@ -32,7 +37,7 @@ div{
   position: absolute;
   top: 0;
   right: 0;
-
+  font-size: 150%;
   height: auto;
   width: 40%;
   text-align: center;
@@ -62,6 +67,11 @@ div{
   background-color: #ddc892;
 }
 
+#Chicken{background-color: lightyellow;}
+#Beef {background-color: lightgreen;}
+#Sushi{background-color: lightpink;}
+
+br{clear: both;}
 
 @media (min-width: 992px)
 {
@@ -109,6 +119,11 @@ div{
   {
     background-color: #ddc892;
   }
+
+  #Chicken{background-color: lightyellow;}
+  #Beef {background-color: lightgreen;}
+  #Sushi{background-color: lightpink;}
+
 
 
 }
@@ -168,6 +183,8 @@ div{
   {
     background-color: #ddc892;
   }
-
+  #Chicken{background-color: lightyellow;}
+  #Beef {background-color: lightgreen;}
+  #Sushi{background-color: lightpink;}
 
 }
