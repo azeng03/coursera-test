@@ -7,15 +7,15 @@
 
 border: none;
 background-color: black;
-color: #61122F;
+color: lightgoldenrodyellow;
 }
 body{
-	background-color: #61122F;
+	background-color: orange;
 	color: white;
 }
 .glyphicon{
 	font-size: 30px;
-	color:#61122F; 
+	color:orange; 
 }
 
 .center{
@@ -35,9 +35,11 @@ h2{
 	text-align: center;
 }
 #myNavbar ul li a {
-	color: #61122F;
+	color: goldenrod;
 }
 .navbar-brand{
-font-size: 30px;	
+font-size: 30px;
 }
 #myNavbar {text-align: center;}
+a span{vertical-align: middle;}
+#mytitle{color: orange;}
